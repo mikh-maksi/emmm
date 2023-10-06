@@ -17,7 +17,7 @@ f1 = 2*x
 
 
 # вказуємо в аргументі label текст легенди
-plt.plot(x, f1, '--y', label='$x_2>2x_1$')
+plt.plot(x, f1, '--y', label='$x_2<2x_1$')
 
 plt.xlabel(r'$x1$', fontsize=16)
 plt.ylabel(r'$x2$', fontsize=16)
