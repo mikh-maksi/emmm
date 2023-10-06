@@ -19,7 +19,7 @@ f3 = 24-x
 # вказуємо в аргументі label текст легенди
 plt.plot(x, f1, '--y', label='$x_2<2x_1$')
 plt.plot(x, f2, '--b', label='$x_2>0.5x_1$')
-plt.plot(x, f3, '--g', label='$x_2>24-x_1$')
+plt.plot(x, f3, '--g', label='$x_2<24-x_1$')
 
 plt.xlabel(r'$x1$', fontsize=16)
 plt.ylabel(r'$x2$', fontsize=16)
